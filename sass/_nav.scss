@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; 
+    }
+
+    & li {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    & h1{
+        font-size: 3em;
+    }
+    & p, & a{
+        color: #777;
+        font-weight: 300;
+    }
+}
