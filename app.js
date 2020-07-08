@@ -9,7 +9,7 @@ const app = express();
 
 //Calling the connection with DB
 
-const dbURI = 'mongodb+srv://eaihara:1ed8a890@the-net-ninja.osufh.gcp.mongodb.net/the-net-ninja?retryWrites=true&w=majority';
+const dbURI = '';
 (async () => { 
     try {
         const res = await mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
